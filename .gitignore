@@ -1,0 +1,45 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Database & uploads
+sentinel.db
+uploads/
+*.db-shm
+*.db-wal
+
+# Runtime data (face encodings, captured faces, local DB)
+data/
+
+# Model weights (auto-downloaded on first run)
+*.pt
+
+# Logs
+server.log
+server.err
+*.log
+
+# Test frames
+test_frame_*.jpg
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Stray nested clone of this repo
+Aicamera/
